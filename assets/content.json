@@ -1,0 +1,62 @@
+[
+  {
+    "type": "carousel",
+    "images": [
+      "/images/abstract-1.jpg",
+      "/images/abstract-2.jpg",
+      "/images/abstract-3.jpg"
+    ]
+  },
+  {
+    "type": "divider",
+    "height": 20,
+    "thickness": 5,
+    "color": "#000000",
+    "margin": 10
+  },
+  {
+    "type": "column",
+    "align": "left",
+    "width": 500,
+    "margin": 10,
+    "data": [
+      {
+        "type": "image",
+        "path": "/images/list.svg",
+        "margin": 10,
+        "height": 200,
+        "width": 500,
+        "scale": "fit",
+        "imageType": "svg"
+      },
+      {
+        "type": "titleDesc",
+        "title": "Sample Title",
+        "desc": "Sample Description",
+        "margin": 10,
+        "width": 500,
+        "title_color": "#000",
+        "desc_color": "#0FAFF0",
+        "title_size": "h3",
+        "desc_size": "medium"
+      },
+      {
+        "type": "text",
+        "text": "Sample Text",
+        "margin": 10,
+        "textColor": "#000"
+      },
+      {
+        "type": "text",
+        "text": "Sample Text \n Sample Text \n Sample Text \n Sample Text",
+        "margin": 10,
+        "textColor": "#000"
+      }
+    ]
+  },
+  {
+    "type": "video",
+    "path": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "pathType": "network"
+  }
+]
