@@ -8,55 +8,202 @@
     ]
   },
   {
+    "type": "space",
+    "height": 50
+  },
+  {
     "type": "divider",
-    "height": 20,
-    "thickness": 5,
+    "thickness": 1,
     "color": "#000000",
-    "margin": 10
+    "margin": 30
   },
   {
     "type": "column",
     "align": "left",
-    "width": 500,
     "margin": 10,
     "data": [
       {
         "type": "image",
-        "path": "/images/list.svg",
+        "path": "/images/illustration-7.jpg",
         "margin": 10,
-        "height": 200,
-        "width": 500,
-        "scale": "fit",
-        "imageType": "svg"
+        "scale": "fit"
+      },
+      {
+        "type": "space",
+        "height": 50
       },
       {
         "type": "titleDesc",
         "title": "Sample Title",
         "desc": "Sample Description",
         "margin": 10,
-        "width": 500,
-        "title_color": "#000",
-        "desc_color": "#0FAFF0",
-        "title_size": "h3",
-        "desc_size": "medium"
+        "width": 700,
+        "titleColor": "#000000",
+        "descColor": "#0FAFF0",
+        "titleSize": "h3",
+        "descSize": "medium"
       },
       {
         "type": "text",
         "text": "Sample Text",
         "margin": 10,
-        "textColor": "#000"
+        "textColor": "#000000"
+      },
+      {
+        "type": "space",
+        "height": 50
       },
       {
         "type": "text",
         "text": "Sample Text \n Sample Text \n Sample Text \n Sample Text",
         "margin": 10,
-        "textColor": "#000"
+        "textColor": "#000000"
       }
     ]
+  },
+  {
+    "type": "space",
+    "height": 50
   },
   {
     "type": "video",
     "path": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "pathType": "network"
+  },
+  {
+    "type": "space",
+    "height": 50
+  },
+  {
+    "type": "divider",
+    "thickness": 1,
+    "color": "#838383",
+    "margin": 30
+  },
+  {
+    "type": "space",
+    "height": 50
+  },
+  {
+    "type": "form",
+    "title": "Form Title",
+    "desc": "Form description",
+    "margin": 10,
+    "inputs": [
+      {
+        "name": "Name",
+        "dataType": "name",
+        "type": "text",
+        "maxLength": 100
+      },
+      {
+        "name": "Email Address",
+        "dataType": "email",
+        "type": "text",
+        "maxLength": 100
+      },
+      {
+        "name": "Phone Number",
+        "dataType": "mobile",
+        "type": "text",
+        "maxLength": 10
+      },
+      {
+        "name": "Address",
+        "dataType": "text",
+        "type": "text",
+        "maxLength": 300
+      },
+      {
+        "name": "Type Of Enquiry",
+        "type": "dropdown",
+        "selected": "One",
+        "list": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ]
+      },
+      {
+        "name": "Tell us a short brief about your project",
+        "dataType": "textLong",
+        "type": "text",
+        "maxLength": 500
+      },
+      {
+        "type": "button",
+        "text": "Submit",
+        "padding": 20,
+        "margin": 10,
+        "textColor": "#ffffff",
+        "bgColor": "#98d0ff",
+        "pressedColor": "#000fff",
+        "hoverColor": "#7697f0",
+        "borderColor": "#f0b7af"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "height": 50
+  },
+  {
+    "type": "divider",
+    "thickness": 1,
+    "color": "#748094",
+    "margin": 30
+  },
+  {
+    "type": "row",
+    "align": "center",
+    "margin": 10,
+    "data": [
+      {
+        "type": "image",
+        "path": "/images/illustration-1.jpg",
+        "margin": 10,
+        "scale": "fit"
+      },
+      {
+        "type": "titleDesc",
+        "title": "Sample Title",
+        "desc": "Sample Description",
+        "margin": 10,
+        "titleColor": "#000000",
+        "descColor": "#0FAFF0",
+        "titleSize": "h3",
+        "descSize": "medium"
+      }
+    ]
+  },
+  {
+    "type": "divider",
+    "thickness": 1,
+    "color": "#748094",
+    "margin": 30
+  },
+  {
+    "type": "row",
+    "margin": 10,
+    "data": [
+      {
+        "type": "titleDesc",
+        "title": "Sample Title",
+        "desc": "Sample Description",
+        "align": "topLeft",
+        "margin": 10,
+        "titleColor": "#000000",
+        "descColor": "#0FAFF0",
+        "titleSize": "h4",
+        "descSize": "medium"
+      },
+      {
+        "type": "image",
+        "path": "/images/illustration-1.jpg",
+        "margin": 10,
+        "scale": "fit"
+      }
+    ]
   }
 ]
